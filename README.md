@@ -1,4 +1,11 @@
-# Omarchy wallpaper timer
+# Omarchy tasks
+
+## Tasks
+
+- [Transfer iPhone files and photos with `ifuse`](tasks/iphone-file-transfer-ifuse.md)
+- [Rotate wallpapers with a systemd timer](#wallpaper-timer)
+
+## Wallpaper timer
 
 These files configure a systemd user timer that advances the Omarchy wallpaper
 every 30 minutes.
