@@ -1,0 +1,6 @@
+[Unit]
+Description=Switch Omarchy wallpaper
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/omarchy theme bg next
