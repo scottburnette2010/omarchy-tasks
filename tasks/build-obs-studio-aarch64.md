@@ -31,12 +31,15 @@ The resulting package is:
 obs-studio-32.2.2-1-aarch64.pkg.tar.xz
 ```
 
+The built installer is also stored in this repository under
+`packages/obs-studio/`.
+
 ## Install
 
-Install the package created in the build directory:
+Install the packaged installer from this repository:
 
 ```bash
-sudo pacman -U obs-studio-32.2.2-1-aarch64.pkg.tar.xz
+sudo pacman -U packages/obs-studio/obs-studio-32.2.2-1-aarch64.pkg.tar.xz
 ```
 
 This build includes PipeWire, JACK, PulseAudio, V4L2, WebRTC, VLC, x264,
